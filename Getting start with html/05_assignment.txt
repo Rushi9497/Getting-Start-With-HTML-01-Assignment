@@ -1,0 +1,39 @@
+Q5. What is Doctype declaration in html?
+   
+   Doctype declaration :-
+                        A document type declaration (DTD), also known as a DOCTYPE,
+                        is the first line of code in every HTML or XHTML document.
+                        It tells the web browser what version of HTML the page is
+                        written in. This ensures that the web page is parsed the
+                        same way by different web browsers. 
+
+                        To declare an HTML5 doctype, `<! DOCTYPE html>` is required
+                        in the first line of your HTML document. Doctype declaration
+                        for HTML5 is not case sensitive and does not require a closing tag. 
+
+                        If there is no doctype declaration in an HTML document, the web
+                        browser is forced to enter into "quirks mode," which can cause
+                        the browser to render the page differently than intended.
+                        This can result in compatibility issues with different browsers
+                        and outdated versions of the same browser. 
+
+                        When authoring document is HTML or XHTML, it is important to Add a 
+                        Doctype declaration. This makes sure the document will be parsed the
+                        same way by different browsers.
+
+                        The simplest and most reliable doctype declaration to use is the one defined in HTML5:
+
+                                               <!DOCTYPE html>
+                         If you need a doctype matching a specific version of (X)HTML, the doctype declaration
+                         must be exact (both in spelling and in case) to have the desired effect, which makes it
+                         sometimes difficult. To ease the work, below is a list of recommended doctype declarations
+                         that you can use in your Web documents
+
+                         there are many other proper declarations you could use, but it has most of the declarations
+                         commonly used on the Web at the moment.
+
+                         1.HTML Doctype Declarations List
+                         2.MathML Doctype Declarations
+                         3.Compound documents doctype declarations
+                         4.Optional doctype declarations
+                         5.Historical doctype declarations

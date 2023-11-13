@@ -1,0 +1,130 @@
+Q_04 short note on Tag and element with an example :-
+
+Technically, an HTML element is the collection of start tag, its attributes, an end tag and
+everything in between. On the other hand an HTML tag (either opening or closing) is used to
+mark the start or end of an element.
+However, in common usage the terms HTML element and HTML tag are interchangeable i.e. a tag
+is an element is a tag
+
+HTML Elements
+       The HTML element is everything from the start tag to the end tag
+
+       An HTML element is defined by a starting tag, and if the element contains other content, 
+       it ends with a closing tag. For example,
+
+<p> tags:
+       is the starting tag of a paragraph and </p> is 
+       the closing tag of the same paragraph.
+
+ example :
+       <p>This is a paragraph.</p>
+       <P>This is also a valid paragraph.</P>
+
+
+       <body> tags:
+       Contain all of the content that will appear on a webpage, including text, images, videos,
+       games, and playable audio tracks.
+
+ example :
+       <body>
+       <h1>Welcome to My Webpage</h1>
+       <p>This is some content on my webpage.</p>
+       <img src="example.jpg" alt="An example image">
+       <!-- Other content like videos, games, audio tracks, etc. can go here -->
+      </body>
+
+
+<meta> tag:
+       Defines metadata about an HTML document.
+
+ example :
+       <head>
+       <meta charset="UTF-8">
+       <meta name="description" content="Example description of the webpage">
+       <meta name="keywords" content="HTML, CSS, JavaScript">
+       <meta name="author" content="Your Name">
+       </head>
+       <body>
+
+
+<title> tag:
+       Defines the title of the document. The title must be text-only, and it is shown in the browser's 
+       title bar or in the page's tab.
+
+ example :
+       <!DOCTYPE html>
+       <html>
+       <head>
+       <title>My Website Title</title>
+       </head>
+       </html>
+
+
+
+<div> tag:
+       Used to group various tags of HTML so that sections can be created and styles can be applied to them
+        
+example : 
+          <!DOCTYPE html>
+          <html>
+         <head>
+         <title>Div Example</title>
+          </head>
+         <body>
+          <div>
+         <p>This is inside a div.</p>
+         <p>So is this.</p>
+          </div>
+         </body>
+         </html>
+
+
+ <html> element:
+       Represents the root (top-level element) of an HTML document.
+
+example :
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>HTML Example</title>
+         </head>
+         </html>
+
+
+
+ <nav> tag:
+       Used for declaring the navigational section in HTML documents.
+
+example :
+    <!DOCTYPE html>
+     <html>
+     <head>
+      <title>Navigation Example</title>
+      </head>
+     <body>
+     <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     </nav>
+   </body>
+<  /html>
+
+
+<a> tag:
+       Also known as the anchor tag, is used to define hyperlinks that link to other pages or to a
+       section of the same page.
+
+example :
+         <!DOCTYPE html>
+         <html>
+           <head>
+          <title>Anchor Example</title>
+           </head>
+           <body>
+            <p>Visit our <a href="https://www.Abc.com">website</a> for more information.</p>
+           </body>
+          </html>
+
